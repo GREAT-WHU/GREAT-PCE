@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+	<gen>
+		<beg> 2020-04-09 00:00:00 </beg>	<!--> begin time <!-->
+		<end> 2020-04-09 23:59:30 </end>	<!--> end time <!-->
+		<int> 300 </int>					<!--> sampling interval <!-->
+		<sys> GPS GLO GAL BDS </sys>		<!--> system ex：GPS GAL GLO QZS BDS SBS <!-->
+		<rec>								<!--> site (4-char upper) <!-->
+			 ABMF ABPO AIRA ALGO ANMG AREG ARHT ARUC ASCG BIK0 BOGT BOR1
+			 BRAZ BREW BRST BSHM CCJ2 CEDU CHPG CKIS CPVG CRO1 CUSV DARW
+			 DAV1 DGAR DJIG DUBO DYNG FAA1 FALK FFMJ GAMB GAMG GANP GCGO
+			 GLPS GODN GOP6 GRAZ GUAM HARB HERS HKWS HOB2 HOFN IISC JFNG
+			 JOZE KARR KAT1 KERG KIRU KITG KOKV KOUC KOUG KRGG LAUT LHAZ
+			 LMMF MAJU MAL2 MAS1 MATG MAW1 MAYG MCHL METG MGUE MIZU MRO1
+			 NICO NIUM NKLG NYA2 OHI3 OUS2 OWMG PADO PALM PARK PERT PICL
+			 PIE1 PNGM POLV POTS POVE PTBB PTGG QUIN RAEG REYK RGDG ROAG
+			 SALU SAMO SASK SAVO SCH2 SCRZ SEYG SGOC SOD3 SOLO STHL STJ3
+			 STK2 STR1 SUTH THTG TLSE TOW2 TSK2 TWTF UFPR ULAB UNB3 UNSA
+			 URUM VACS VILL VOIM WARN WIND WTZZ WUH2 XMIS YAR3 YARR YEL2
+			 ZAMB ZIM3
+		</rec>
+		<est> LSQ </est>					<!--> Estimator ：LSQ <!-->
+	</gen>
+	<receiver>								<!--> receiver corordinate, receiver and antenna information<!-->
+		<rec X="    2919785.79248433" Y="   -5383744.95957728" Z="    1774604.86460751" dX="  0.0003" dY="  0.0005" dZ="  0.0002" id="ABMF" obj="SNX" rec="SEPT POLARX5        " ant="TRM57971.00     NONE" />
+		<rec X="    4097216.53505846" Y="    4429119.20580444" Z="   -2065771.17032466" dX="  0.0003" dY="  0.0004" dZ="  0.0002" id="ABPO" obj="SNX" rec="SEPT POLARX5        " ant="ASH701945G_M    SCIT" />
+		<rec X="   -3530185.88859742" Y="    4118797.20577174" Z="    3344036.71307338" dX="  0.0013" dY="  0.0011" dZ="  0.0010" id="AIRA" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     SCIS" />
+		<rec X="     918129.12865173" Y="   -4346071.32388963" Z="    4561977.91176851" dX="  0.0001" dY="  0.0003" dZ="  0.0003" id="ALGO" obj="SNX" rec="JAVAD TRE_G3TH DELTA" ant="AOAD/M_T        NONE" />
+		<rec X="   -1270827.02336716" Y="    6242631.30528462" Z="     307792.40039258" dX="  0.0005" dY="  0.0014" dZ="  0.0003" id="ANMG" obj="SNX" rec="TRIMBLE NETR9       " ant="JAVRINGANT_DM   SCIS" />
+		<rec X="    1942816.42492502" Y="   -5804077.15913908" Z="   -1796884.34509259" dX="  0.0003" dY="  0.0006" dZ="  0.0002" id="AREG" obj="SNX" rec="SEPT POLARX5        " ant="TRM59800.00     NONE" />
+		<rec X="   -1312626.51366975" Y="     311171.09986419" Z="   -6213081.92558394" dX="  0.0004" dY="  0.0003" dZ="  0.0015" id="ARHT" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="JAVRINGANT_DM   SCIS" />
+		<rec X="    3500416.60775827" Y="    3390432.76550829" Z="    4103027.66422212" dX="  0.0014" dY="  0.0014" dZ="  0.0014" id="ARUC" obj="SNX" rec="SEPT POLARX5        " ant="ASH701945C_M    SCIS" />
+		<rec X="    6121151.56719975" Y="   -1563978.94930969" Z="    -872615.30001648" dX="  0.0008" dY="  0.0003" dZ="  0.0002" id="ASCG" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    1249005.13220536" Y="    4513917.41987275" Z="    4316147.98451131" dX="  0.0005" dY="  0.0013" dZ="  0.0011" id="BIK0" obj="SNX" rec="JAVAD TRE_G3TH DELTA" ant="JAV_RINGANT_G3T NONE" />
+		<rec X="    1744398.87876329" Y="   -6116037.02407526" Z="     512731.91161304" dX="  0.0003" dY="  0.0006" dZ="  0.0002" id="BOGT" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="JAVRINGANT_DM   NONE" />
+		<rec X="    3738358.19117177" Y="    1148173.94690677" Z="    5021815.89939424" dX="  0.0003" dY="  0.0002" dZ="  0.0004" id="BOR1" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    4115014.06412540" Y="   -4550641.63869710" Z="   -1741443.76730785" dX="  0.0004" dY="  0.0004" dZ="  0.0002" id="BRAZ" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM57971.00     NONE" />
+		<rec X="   -2112007.36698781" Y="   -3705351.82274276" Z="    4726827.03202427" dX="  0.0002" dY="  0.0003" dZ="  0.0004" id="BREW" obj="SNX" rec="SEPT POLARX5TR      " ant="ASH701945C_M    SCIT" />
+		<rec X="    4231162.39539821" Y="    -332746.40761706" Z="    4745131.08089305" dX="  0.0004" dY="  0.0002" dZ="  0.0005" id="BRST" obj="SNX" rec="TRIMBLE ALLOY       " ant="TRM57971.00     NONE" />
+		<rec X="    4395951.14159759" Y="    3080707.24314317" Z="    3433498.28632124" dX="  0.0006" dY="  0.0005" dZ="  0.0005" id="BSHM" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="TRM59800.00     SCIS" />
+		<rec X="   -4490605.12181119" Y="    3483895.03183964" Z="    2884928.32162490" dX="  0.0004" dY="  0.0004" dZ="  0.0003" id="CCJ2" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     SCIS" />
+		<rec X="   -3753473.20745070" Y="    3912741.03109024" Z="   -3347959.68111599" dX="  0.0003" dY="  0.0003" dZ="  0.0002" id="CEDU" obj="SNX" rec="SEPT POLARX5        " ant="AOAD/M_T        NONE" />
+		<rec X="    4163476.68279630" Y="   -4163821.99090823" Z="   -2444511.07873722" dX="  0.0006" dY="  0.0006" dZ="  0.0004" id="CHPG" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="   -5583182.67582880" Y="   -2054142.71702956" Z="   -2292166.20101637" dX="  0.0005" dY="  0.0002" dZ="  0.0002" id="CKIS" obj="SNX" rec="TRIMBLE NETR9       " ant="JAVRINGANT_DM   NONE" />
+		<rec X="    5626883.44241523" Y="   -2380932.34213038" Z="    1824483.99374171" dX="  0.0005" dY="  0.0003" dZ="  0.0002" id="CPVG" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    2607771.33640025" Y="   -5488076.56220916" Z="    1932767.97431186" dX="  0.0003" dY="  0.0004" dZ="  0.0002" id="CRO1" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="JAVRINGANT_DM   SCIS" />
+		<rec X="   -1132914.99163951" Y="    6092528.53969387" Z="    1504633.17224336" dX="  0.0002" dY="  0.0006" dZ="  0.0002" id="CUSV" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="JAVRINGANT_DM   NONE" />
+		<rec X="   -4091359.62320447" Y="    4684606.41836199" Z="   -1408579.10635259" dX="  0.0004" dY="  0.0004" dZ="  0.0002" id="DARW" obj="SNX" rec="SEPT POLARX5        " ant="JAVRINGANT_DM   NONE" />
+		<rec X="     486854.58862120" Y="    2285099.17291516" Z="   -5914955.71630597" dX="  0.0001" dY="  0.0002" dZ="  0.0004" id="DAV1" obj="SNX" rec="SEPT POLARX5        " ant="LEIAR25.R3      LEIT" />
+		<rec X="    1916268.75692646" Y="    6029977.73205271" Z="    -801719.40687571" dX="  0.0002" dY="  0.0004" dZ="  0.0001" id="DGAR" obj="SNX" rec="SEPT POLARX5        " ant="ASH701945E_M    NONE" />
+		<rec X="    4583085.93090860" Y="    4250982.66045992" Z="    1266243.20576697" dX="  0.0005" dY="  0.0005" dZ="  0.0002" id="DJIG" obj="SNX" rec="SEPT POLARX5        " ant="TRM59800.00     NONE" />
+		<rec X="    -417603.96318847" Y="   -4064529.83453926" Z="    4881432.12878502" dX="  0.0001" dY="  0.0003" dZ="  0.0004" id="DUBO" obj="SNX" rec="SEPT POLARX5        " ant="AOAD/M_T        NONE" />
+		<rec X="   -5247393.64820741" Y="   -3076866.39879510" Z="   -1911521.01191460" dX="  0.0005" dY="  0.0003" dZ="  0.0002" id="FAA1" obj="SNX" rec="SEPT POLARX5        " ant="LEIAR25.R4      NONE" />
+		<rec X="    2106811.40533313" Y="   -3355170.76019874" Z="   -4981786.22717472" dX="  0.0002" dY="  0.0003" dZ="  0.0004" id="FALK" obj="SNX" rec="SEPT POLARX5        " ant="ASH701945E_M    SCIT" />
+		<rec X="    4053455.64839561" Y="     617729.91517694" Z="    4869395.87030087" dX="  0.0008" dY="  0.0004" dZ="  0.0008" id="FFMJ" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="LEIAR25.R3      LEIT" />
+		<rec X="   -4147127.25730366" Y="   -4152221.82638240" Z="   -2490032.87921883" dX="  0.0006" dY="  0.0006" dZ="  0.0004" id="GAMB" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    3929181.26905130" Y="    1455236.97003154" Z="    4793654.04515906" dX="  0.0007" dY="  0.0004" dZ="  0.0008" id="GANP" obj="SNX" rec="TRIMBLE ALLOY       " ant="TRM59800.00     SCIS" />
+		<rec X="     -33800.88485876" Y="   -6377516.51587282" Z="     -82154.22540223" dX="  0.0001" dY="  0.0004" dZ="  0.0001" id="GLPS" obj="SNX" rec="JAVAD TRE_G3TH DELTA" ant="ASH701945B_M    SCIT" />
+		<rec X="    1130760.74675541" Y="   -4831298.68116425" Z="    3994155.19927475" dX="  0.0004" dY="  0.0008" dZ="  0.0007" id="GODN" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="TPSCR.G3        SCIS" />
+		<rec X="    4194423.55293406" Y="    1162702.96548016" Z="    4647245.57378411" dX="  0.0003" dY="  0.0002" dZ="  0.0004" id="GRAZ" obj="SNX" rec="SEPT POLARX5        " ant="LEIAR25.R4      LEIT" />
+		<rec X="   -5071312.66434365" Y="    3568363.64067254" Z="    1488904.40914975" dX="  0.0008" dY="  0.0006" dZ="  0.0003" id="GUAM" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="JAVRINGANT_DM   SCIS" />
+		<rec X="    5084657.60939126" Y="    2670325.40973505" Z="   -2768480.89265095" dX="  0.0004" dY="  0.0002" dZ="  0.0002" id="HARB" obj="SNX" rec="SEPT POLARX5TR      " ant="TRM59800.00     NONE" />
+		<rec X="    4033469.89430168" Y="      23673.14341804" Z="    4924301.46050806" dX="  0.0003" dY="  0.0001" dZ="  0.0003" id="HERS" obj="SNX" rec="SEPT POLARX5TR      " ant="LEIAR25.R3      NONE" />
+		<rec X="   -2430579.67462496" Y="    5374285.44542856" Z="    2418956.10018399" dX="  0.0005" dY="  0.0009" dZ="  0.0005" id="HKWS" obj="SNX" rec="LEICA GR50          " ant="LEIAR25.R4      LEIT" />
+		<rec X="   -3950072.26223842" Y="    2522415.36973430" Z="   -4311637.39456027" dX="  0.0003" dY="  0.0002" dZ="  0.0003" id="HOB2" obj="SNX" rec="SEPT POLARX5        " ant="AOAD/M_T        NONE" />
+		<rec X="    2679689.92375988" Y="    -727950.98180656" Z="    5722789.56204502" dX="  0.0002" dY="  0.0001" dZ="  0.0004" id="HOFN" obj="SNX" rec="LEICA GR50          " ant="LEIAR25.R4      LEIT" />
+		<rec X="    1337935.79576442" Y="    6070317.12869166" Z="    1427877.31110725" dX="  0.0003" dY="  0.0006" dZ="  0.0002" id="IISC" obj="SNX" rec="SEPT POLARX5        " ant="ASH701945E_M    NONE" />
+		<rec X="   -2279829.09263824" Y="    5004706.45617166" Z="    3219777.38729592" dX="  0.0004" dY="  0.0008" dZ="  0.0005" id="JFNG" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    3664939.87743092" Y="    1409154.09367151" Z="    5009571.50462083" dX="  0.0003" dY="  0.0002" dZ="  0.0004" id="JOZE" obj="SNX" rec="SEPT POLARX5        " ant="SEPCHOKE_B3E6   NONE" />
+		<rec X="   -2713833.28356393" Y="    5303935.11195330" Z="   -2269513.73645104" dX="  0.0003" dY="  0.0004" dZ="  0.0002" id="KARR" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="   -4147413.83099328" Y="    4581462.58519450" Z="   -1573359.06436695" dX="  0.0005" dY="  0.0006" dZ="  0.0003" id="KAT1" obj="SNX" rec="SEPT POLARX5        " ant="LEIAR25.R3      LEIT" />
+		<rec X="    1406337.19715445" Y="    3918161.09836746" Z="   -4816167.38776358" dX="  0.0002" dY="  0.0003" dZ="  0.0004" id="KERG" obj="SNX" rec="TRIMBLE NETR9       " ant="ASH701945E_M    SNOW" />
+		<rec X="    2251420.52014803" Y="     862817.38673900" Z="    5885476.81752010" dX="  0.0003" dY="  0.0002" dZ="  0.0006" id="KIRU" obj="SNX" rec="SEPT POLARX5        " ant="SEPCHOKE_B3E6   SPKE" />
+		<rec X="    1944879.62876829" Y="    4556783.80095429" Z="    4004205.95099454" dX="  0.0004" dY="  0.0007" dZ="  0.0006" id="KITG" obj="SNX" rec="SEPT POLARX5        " ant="TRM59800.00     SCIS" />
+		<rec X="   -5543838.33451701" Y="   -2054585.79494802" Z="    2387810.45220710" dX="  0.0005" dY="  0.0002" dZ="  0.0003" id="KOKV" obj="SNX" rec="JAVAD TRE_G3TH DELTA" ant="ASH701945G_M    NONE" />
+		<rec X="   -5751223.13436823" Y="    1617967.23341005" Z="   -2225743.17290689" dX="  0.0009" dY="  0.0003" dZ="  0.0004" id="KOUC" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM57971.00     TZGD" />
+		<rec X="    3855263.29917314" Y="   -5049732.01271670" Z="     563040.53242679" dX="  0.0004" dY="  0.0005" dZ="  0.0002" id="KOUG" obj="SNX" rec="SEPT POLARX5TR      " ant="LEIAR25.R3      LEIT" />
+		<rec X="    1406336.18031234" Y="    3918154.60453660" Z="   -4816172.88525037" dX="  0.0002" dY="  0.0003" dZ="  0.0004" id="KRGG" obj="SNX" rec="TRIMBLE ALLOY       " ant="LEIAR25.R4      LEIT" />
+		<rec X="   -6075194.67908826" Y="     270923.74720536" Z="   -1917189.03887615" dX="  0.0005" dY="  0.0002" dZ="  0.0002" id="LAUT" obj="SNX" rec="SEPT POLARX5        " ant="JAVRINGANT_DM   NONE" />
+		<rec X="    -106942.15114827" Y="    5549269.76154440" Z="    3139215.22292656" dX="  0.0002" dY="  0.0005" dZ="  0.0003" id="LHAZ" obj="SNX" rec="LEICA GR25          " ant="LEIAR25.R4      LEIT" />
+		<rec X="    2993387.40382858" Y="   -5399363.82919889" Z="    1596748.17076169" dX="  0.0003" dY="  0.0005" dZ="  0.0002" id="LMMF" obj="SNX" rec="TRIMBLE ALLOY       " ant="TRM57971.00     NONE" />
+		<rec X="   -6257572.11257506" Y="     950333.50001271" Z="     785215.60995226" dX="  0.0006" dY="  0.0002" dZ="  0.0002" id="MAJU" obj="SNX" rec="SEPT POLARX4TR      " ant="JAVRINGANT_DM   NONE" />
+		<rec X="    4865385.43422458" Y="    4110717.49355184" Z="    -331137.37526591" dX="  0.0005" dY="  0.0005" dZ="  0.0002" id="MAL2" obj="SNX" rec="SEPT POLARX5        " ant="LEIAR25.R4      NONE" />
+		<rec X="    5439192.14893906" Y="   -1522055.20724047" Z="    2953455.07909570" dX="  0.0005" dY="  0.0002" dZ="  0.0003" id="MAS1" obj="SNX" rec="SEPT POLARX5        " ant="LEIAR25.R4      NONE" />
+		<rec X="    4641952.55861635" Y="    1393063.03167958" Z="    4133278.31556722" dX="  0.0010" dY="  0.0005" dZ="  0.0009" id="MATG" obj="SNX" rec="LEICA GR10          " ant="LEIAR25         NONE" />
+		<rec X="    1111287.21552016" Y="    2168911.19182892" Z="   -5874493.59725281" dX="  0.0002" dY="  0.0002" dZ="  0.0004" id="MAW1" obj="SNX" rec="SEPT POLARX5        " ant="AOAD/M_T        AUST" />
+		<rec X="    4379104.20767451" Y="    4418744.61741741" Z="   -1401897.79316429" dX="  0.0007" dY="  0.0008" dZ="  0.0003" id="MAYG" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="   -4857858.94114749" Y="    3018464.36837526" Z="   -2814983.21003023" dX="  0.0009" dY="  0.0006" dZ="  0.0005" id="MCHL" obj="SNX" rec="TRIMBLE ALLOY       " ant="TRM59800.00     NONE" />
+		<rec X="    2890652.35122082" Y="    1310295.66278089" Z="    5513958.95060129" dX="  0.0008" dY="  0.0005" dZ="  0.0014" id="METG" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     SCIS" />
+		<rec X="    1823327.81043242" Y="   -4850352.55714526" Z="   -3709085.44115245" dX="  0.0003" dY="  0.0005" dZ="  0.0004" id="MGUE" obj="SNX" rec="SEPT POLARX5TR      " ant="LEIAR25.R4      NONE" />
+		<rec X="   -3857170.96975080" Y="    3108692.87260639" Z="    4004040.20328460" dX="  0.0006" dY="  0.0005" dZ="  0.0006" id="MIZU" obj="SNX" rec="SEPT ASTERX4        " ant="SEPCHOKE_B3E6   NONE" />
+		<rec X="   -2556630.05709025" Y="    5097138.28832292" Z="   -2848384.76896974" dX="  0.0004" dY="  0.0006" dZ="  0.0004" id="MRO1" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    4359415.43096577" Y="    2874117.23154342" Z="    3650778.01981701" dX="  0.0003" dY="  0.0002" dZ="  0.0003" id="NICO" obj="SNX" rec="LEICA GR50          " ant="LEIAR25.R4      LEIT" />
+		<rec X="   -5937160.92685300" Y="   -1054675.15473212" Z="   -2071385.98175495" dX="  0.0006" dY="  0.0002" dZ="  0.0003" id="NIUM" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    6287385.70484692" Y="    1071574.86782935" Z="      39133.20099157" dX="  0.0004" dY="  0.0002" dZ="  0.0001" id="NKLG" obj="SNX" rec="SEPT POLARX5        " ant="TRM59800.00     SCIS" />
+		<rec X="    1202379.27622630" Y="     252474.67941385" Z="    6237786.58077900" dX="  0.0003" dY="  0.0002" dZ="  0.0014" id="NYA2" obj="SNX" rec="JAVAD TRE_3         " ant="JAVRINGANT_G5T  NONE" />
+		<rec X="    1525809.32043667" Y="   -2432478.74327763" Z="   -5676166.24348945" dX="  0.0002" dY="  0.0002" dZ="  0.0004" id="OHI3" obj="SNX" rec="LEICA GR50          " ant="LEIAR25.R4      LEIT" />
+		<rec X="   -4387891.06830182" Y="     733420.97635390" Z="   -4555176.00857776" dX="  0.0004" dY="  0.0002" dZ="  0.0004" id="OUS2" obj="SNX" rec="SEPT ASTERX4        " ant="SEPCHOKE_B3E6   NONE" />
+		<rec X="   -4584394.26813750" Y="    -290931.61005855" Z="   -4410047.89419509" dX="  0.0006" dY="  0.0002" dZ="  0.0005" id="OWMG" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    4388881.75599986" Y="     924567.73409607" Z="    4519588.89727838" dX="  0.0006" dY="  0.0003" dZ="  0.0006" id="PADO" obj="SNX" rec="SEPT POLARX5        " ant="SEPCHOKE_B3E6   SPKE" />
+		<rec X="    1192672.17166527" Y="   -2450887.70096250" Z="   -5747096.04375811" dX="  0.0002" dY="  0.0002" dZ="  0.0005" id="PALM" obj="SNX" rec="JAVAD TRE_G3TH DELTA" ant="ASH700936D_M    SCIS" />
+		<rec X="   -4554255.21498028" Y="    2816652.44231692" Z="   -3454059.68704030" dX="  0.0005" dY="  0.0004" dZ="  0.0004" id="PARK" obj="SNX" rec="TRIMBLE NETR9       " ant="ASH701945C_M    NONE" />
+		<rec X="   -2368688.05456684" Y="    4881316.70296050" Z="   -3341794.96301013" dX="  0.0002" dY="  0.0004" dZ="  0.0003" id="PERT" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="     -11253.35188163" Y="   -3980586.77300843" Z="    4967210.29773794" dX="  0.0003" dY="  0.0007" dZ="  0.0008" id="PICL" obj="SNX" rec="SEPT POLARX5        " ant="TWIVC6150       NONE" />
+		<rec X="   -1640917.11393464" Y="   -5014781.18923198" Z="    3575447.01120446" dX="  0.0002" dY="  0.0004" dZ="  0.0003" id="PIE1" obj="SNX" rec="JAVAD TRE_G3TH DELTA" ant="ASH701945E_M    NONE" />
+		<rec X="   -5367942.61252403" Y="    3437432.10162519" Z="    -225885.57009545" dX="  0.0006" dY="  0.0004" dZ="  0.0002" id="PNGM" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    3411557.01841339" Y="    2348464.16875161" Z="    4834396.98839308" dX="  0.0003" dY="  0.0002" dZ="  0.0004" id="POLV" obj="SNX" rec="LEICA GR10          " ant="LEIAR10         NONE" />
+		<rec X="    3800689.38790355" Y="     882077.62893125" Z="    5028791.46469900" dX="  0.0004" dY="  0.0002" dZ="  0.0005" id="POTS" obj="SNX" rec="JAVAD TRE_3         " ant="JAVRINGANT_G5T  NONE" />
+		<rec X="    2774265.58069110" Y="   -5662060.17388040" Z="    -959415.74203382" dX="  0.0003" dY="  0.0005" dZ="  0.0002" id="POVE" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM115000.00    NONE" />
+		<rec X="    3844059.71470975" Y="     709661.56269421" Z="    5023129.69657922" dX="  0.0003" dY="  0.0001" dZ="  0.0004" id="PTBB" obj="SNX" rec="SEPT POLARX5TR      " ant="LEIAR25.R4      LEIT" />
+		<rec X="   -3184364.49610632" Y="    5291037.24283167" Z="    1590413.59651505" dX="  0.0007" dY="  0.0011" dZ="  0.0004" id="PTGG" obj="SNX" rec="SEPT POLARX5        " ant="TRM59800.00     SCIS" />
+		<rec X="   -2517231.45090159" Y="   -4198594.95361274" Z="    4076531.15830863" dX="  0.0003" dY="  0.0004" dZ="  0.0004" id="QUIN" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="ASH701945E_M    SNOW" />
+		<rec X="    4618483.71328812" Y="   -2166047.94992158" Z="    3816305.73234582" dX="  0.0017" dY="  0.0010" dZ="  0.0013" id="RAEG" obj="SNX" rec="LEICA GR25          " ant="LEIAR20         NONE" />
+		<rec X="    2587383.98021619" Y="   -1043033.55534843" Z="    5716564.14356146" dX="  0.0002" dY="  0.0002" dZ="  0.0005" id="REYK" obj="SNX" rec="LEICA GR50          " ant="LEIAR25.R4      LEIT" />
+		<rec X="    1429870.45773271" Y="   -3495334.83810985" Z="   -5122722.95924882" dX="  0.0002" dY="  0.0004" dZ="  0.0005" id="RGDG" obj="SNX" rec="TRIMBLE ALLOY       " ant="TRM59800.00     SCIS" />
+		<rec X="    4566947.84547207" Y="   -4443098.55435408" Z="    -286674.55108359" dX="  0.0006" dY="  0.0006" dZ="  0.0002" id="SALU" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM115000.00    NONE" />
+		<rec X="   -6129702.40319202" Y="    -890028.50069758" Z="   -1516806.76447576" dX="  0.0006" dY="  0.0002" dZ="  0.0002" id="SAMO" obj="SNX" rec="TRIMBLE NETR9       " ant="JAVRINGANT_DM   NONE" />
+		<rec X="   -1106129.96976470" Y="   -3758704.90977260" Z="    5016675.44157582" dX="  0.0004" dY="  0.0007" dZ="  0.0008" id="SASK" obj="SNX" rec="JAVAD TRE_G3TH DELTA" ant="NOV750.R4       NOVS" />
+		<rec X="    4870283.74687070" Y="   -3864605.37775311" Z="   -1418872.36729679" dX="  0.0004" dY="  0.0003" dZ="  0.0002" id="SAVO" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM115000.00    NONE" />
+		<rec X="    1448636.52663183" Y="   -3385243.80084497" Z="    5191047.25538517" dX="  0.0001" dY="  0.0002" dZ="  0.0003" id="SCH2" obj="SNX" rec="JAVAD TRE_3N DELTA  " ant="ASH701945E_M    NONE" />
+		<rec X="    2743005.91683222" Y="   -5420745.27241007" Z="   -1937116.98193998" dX="  0.0004" dY="  0.0006" dZ="  0.0003" id="SCRZ" obj="SNX" rec="LEICA GR10          " ant="LEIAR10         NONE" />
+		<rec X="    3597835.87945039" Y="    5240884.10886700" Z="    -516780.94976787" dX="  0.0005" dY="  0.0007" dZ="  0.0002" id="SEYG" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="    1113279.66893528" Y="    6233644.31378717" Z="     760277.23505746" dX="  0.0003" dY="  0.0010" dZ="  0.0003" id="SGOC" obj="SNX" rec="JAVAD TRE_3         " ant="JAVRINGANT_G5T  NONE" />
+		<rec X="    2200149.16473525" Y="    1091650.88532899" Z="    5866868.67924516" dX="  0.0006" dY="  0.0005" dZ="  0.0013" id="SOD3" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="JAVRINGANT_DM   SCIS" />
+		<rec X="   -5911340.14272888" Y="    2156887.76401572" Z="   -1038663.57172541" dX="  0.0009" dY="  0.0004" dZ="  0.0003" id="SOLO" obj="SNX" rec="TRIMBLE NETR9       " ant="JAVRINGANT_DM   NONE" />
+		<rec X="    6104817.26660963" Y="    -605827.79810542" Z="   -1740738.67351249" dX="  0.0004" dY="  0.0001" dZ="  0.0002" id="STHL" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="TPSCR.G3        SCIS" />
+		<rec X="    2612588.51945949" Y="   -3426820.65480730" Z="    4686773.82539336" dX="  0.0006" dY="  0.0007" dZ="  0.0009" id="STJ3" obj="SNX" rec="SEPT POLARX5TR      " ant="LEIAR25.R4      NONE" />
+		<rec X="   -3642161.46430961" Y="    2861487.86159199" Z="    4370351.22538250" dX="  0.0004" dY="  0.0004" dZ="  0.0005" id="STK2" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     SCIS" />
+		<rec X="   -4467103.21255982" Y="    2683039.47988781" Z="   -3666948.73963000" dX="  0.0006" dY="  0.0004" dZ="  0.0004" id="STR1" obj="SNX" rec="SEPT POLARX5        " ant="ASH701945C_M    NONE" />
+		<rec X="    5041274.90358460" Y="    1916054.44943345" Z="   -3397075.69224673" dX="  0.0004" dY="  0.0002" dZ="  0.0003" id="SUTH" obj="SNX" rec="SEPT POLARX5        " ant="ASH701945G_M    NONE" />
+		<rec X="   -5246415.33336727" Y="   -3077260.56114029" Z="   -1913841.75097273" dX="  0.0009" dY="  0.0005" dZ="  0.0004" id="THTG" obj="SNX" rec="SEPT POLARX5TR      " ant="LEIAR25.R3      LEIT" />
+		<rec X="    4627851.64053486" Y="     119640.31139997" Z="    4372993.72705474" dX="  0.0003" dY="  0.0001" dZ="  0.0003" id="TLSE" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="   -5054583.40316045" Y="    3275504.10412687" Z="   -2091538.45136251" dX="  0.0004" dY="  0.0003" dZ="  0.0002" id="TOW2" obj="SNX" rec="SEPT POLARX5        " ant="LEIAR25.R3      NONE" />
+		<rec X="   -3957184.91199935" Y="    3310231.00073921" Z="    3737703.83580797" dX="  0.0009" dY="  0.0007" dZ="  0.0007" id="TSK2" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+		<rec X="   -2994428.61382929" Y="    4951309.05309823" Z="    2674496.70801801" dX="  0.0003" dY="  0.0004" dZ="  0.0003" id="TWTF" obj="SNX" rec="SEPT POLARX4        " ant="ASH701945C_M    SCIS" />
+		<rec X="    3763751.68816378" Y="   -4365113.94573204" Z="   -2724404.47917023" dX="  0.0003" dY="  0.0004" dZ="  0.0003" id="UFPR" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM115000.00    NONE" />
+		<rec X="   -1257408.99530295" Y="    4099404.31790690" Z="    4707992.55948711" dX="  0.0002" dY="  0.0005" dZ="  0.0006" id="ULAB" obj="SNX" rec="JAVAD TRE_3         " ant="JAVRINGANT_G5T  NONE" />
+		<rec X="    1761287.86563506" Y="   -4078238.51835926" Z="    4561417.80604346" dX="  0.0003" dY="  0.0005" dZ="  0.0005" id="UNB3" obj="SNX" rec="TRIMBLE ALLOY       " ant="TRM57971.00     NONE" />
+		<rec X="    2412830.47769942" Y="   -5271936.78374771" Z="   -2652208.86413893" dX="  0.0004" dY="  0.0007" dZ="  0.0004" id="UNSA" obj="SNX" rec="SEPT ASTERX4        " ant="SEPCHOKE_B3E6   NONE" />
+		<rec X="     193030.16506534" Y="    4606851.27935330" Z="    4393311.52709268" dX="  0.0002" dY="  0.0007" dZ="  0.0006" id="URUM" obj="SNX" rec="JAVAD TRE_3         " ant="JAVRINGANT_G5T  NONE" />
+		<rec X="    3215946.90725311" Y="    5047449.77223575" Z="   -2198718.15447374" dX="  0.0006" dY="  0.0009" dZ="  0.0005" id="VACS" obj="SNX" rec="SEPT POLARX5        " ant="JAVRINGANT_DM   NONE" />
+		<rec X="    4849833.54355121" Y="    -335048.73102332" Z="    4116015.12489142" dX="  0.0005" dY="  0.0002" dZ="  0.0004" id="VILL" obj="SNX" rec="SEPT POLARX5        " ant="SEPCHOKE_B3E6   NONE" />
+		<rec X="    4054014.08510736" Y="    4316070.35233364" Z="   -2365223.91937533" dX="  0.0007" dY="  0.0008" dZ="  0.0004" id="VOIM" obj="SNX" rec="JAVAD TR_G3TH       " ant="JAV_RINGANT_G3T NONE" />
+		<rec X="    3658785.55580113" Y="     784471.11428941" Z="    5147870.73236744" dX="  0.0007" dY="  0.0003" dZ="  0.0008" id="WARN" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="LEIAR25.R4      LEIT" />
+		<rec X="    5633708.78726754" Y="    1732018.03990738" Z="   -2433985.49507786" dX="  0.0007" dY="  0.0003" dZ="  0.0003" id="WIND" obj="SNX" rec="JAVAD TRE_3         " ant="JAVRINGANT_G5T  NONE" />
+		<rec X="    4075579.17822399" Y="     931853.37344338" Z="    4801569.19028445" dX="  0.0004" dY="  0.0002" dZ="  0.0005" id="WTZZ" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="LEIAR25.R3      LEIT" />
+		<rec X="   -2267750.13167737" Y="    5009154.51152762" Z="    3221294.39271933" dX="  0.0007" dY="  0.0013" dZ="  0.0008" id="WUH2" obj="SNX" rec="JAVAD TRE_3         " ant="JAVRINGANT_G5T  NONE" />
+		<rec X="   -1696344.76727995" Y="    6039590.00195942" Z="   -1149275.06637142" dX="  0.0002" dY="  0.0005" dZ="  0.0002" id="XMIS" obj="SNX" rec="TRIMBLE NETR9       " ant="JAVRINGANT_DM   NONE" />
+		<rec X="   -2389043.78474036" Y="    5043313.59005185" Z="   -3078524.37787942" dX="  0.0004" dY="  0.0006" dZ="  0.0004" id="YAR3" obj="SNX" rec="SEPT POLARX5        " ant="LEIAR25         NONE" />
+		<rec X="   -2389025.59321011" Y="    5043315.54424677" Z="   -3078532.96186619" dX="  0.0003" dY="  0.0004" dZ="  0.0003" id="YARR" obj="SNX" rec="SEPT POLARX5        " ant="LEIAT504        NONE" />
+		<rec X="   -1224442.15792604" Y="   -2689174.68390260" Z="    5633660.37077723" dX="  0.0004" dY="  0.0005" dZ="  0.0010" id="YEL2" obj="SNX" rec="SEPT POLARX5TR      " ant="LEIAR25.R4      NONE" />
+		<rec X="    5415352.94410668" Y="    2917210.20072381" Z="   -1685888.59178360" dX="  0.0004" dY="  0.0002" dZ="  0.0002" id="ZAMB" obj="SNX" rec="JAVAD TRE_3 DELTA   " ant="AOAD/M_T        NONE" />
+		<rec X="    4331299.65816868" Y="     567537.59815760" Z="    4633133.89150618" dX="  0.0007" dY="  0.0003" dZ="  0.0007" id="ZIM3" obj="SNX" rec="TRIMBLE NETR9       " ant="TRM59800.00     NONE" />
+	</receiver>
+	<parameters>
+		<STA ID="XXXX" sigCLK="9000" sigPOS="0.1_0.1_0.1" sigZTD="0.201" />
+		<SAT ID="XXX" sigCLK="5000" />
+	</parameters>
+	<gps sigma_C="0.6" sigma_L="0.01">	<!--> GPS pseudorange sigma & phase sigma <!-->
+		<sat>							<!--> satellite prn <!-->
+			 G01 G02 G03 G04 G05 G06 G07 G08 G09 G10 G11 G12 G13 G14 G15
+			 G16 G17 G18 G19 G20 G21 G22 G23 G24 G25 G26 G27 G28 G29 G30
+			 G31 G32
+		</sat>
+		<band> 1 2 </band>				<!--> the satellite frequency, for example, C5X, is represented as 5 <!-->  
+		<freq> 1 2 </freq>				<!--> satellite frequency, corresponding to band, optional value 1/2/3/4/5 <!-->
+	</gps>
+	<glo sigma_C="3.0" sigma_L="0.01">	<!--> GLO pseudorange sigma & phase sigma <!-->
+		<sat>
+			 R01 R02 R03 R04 R05 R06 R07 R08 R09 R10 R11 R12 R13 R14 R15
+			 R16 R17 R18 R19 R20 R21 R22 R23 R24
+		</sat>
+		<band> 1 2 </band>
+		<freq> 1 2 </freq>
+	</glo>
+	<gal sigma_C="0.6" sigma_L="0.01">	<!--> GAL pseudorange sigma & phase sigma <!-->
+		<sat>
+			 E01 E02 E03 E04 E05 E07 E08 E09 E11 E12 E13 E14 E15 E18 E19
+			 E21 E24 E25 E26 E27 E30 E31 E33 E36
+		</sat>
+		<band> 1 5 </band>
+		<freq> 1 2 </freq>
+	</gal>
+	<bds sigma_C="1.7" sigma_L="0.01">	<!--> BDS pseudorange sigma & phase sigma <!-->
+		<sat>
+			 C06 C07 C08 C09 C10 C11 C12 C13 C14 C16 C19 C20 C21 C22 C23
+			 C24 C25 C26 C27 C28 C29 C30 C32 C33 C34 C35 C36 C37 C38 C39
+			 C40 C41 C42 C43 C44 C45 C46
+		</sat>
+		<band> 2 6 </band>
+		<freq> 1 2 </freq>
+	</bds>
+	<!--> phase=             use phase obs (true/false) <!-->
+	<!--> obs_combination=   obs comb type<!-->
+	<!--> frequency=         frequency number <!-->
+	<!--> minimum_elev=      cut-off satellite elevation(deg) <!-->
+	<!--> obs_weight=        weight model of obs <!-->
+	<!--> slip_model=        cycle slip detect method <!-->
+	<!--> tropo=             estimate trop param (true/false) <!-->
+	<!--> tropo_mf=          trop mapping function <!-->
+	<!--> tropo_model=       trop model <!-->
+	<!--> gradient=          estimate trop gradient param (true/false) <!-->
+	<!--> grad_mf=           trop gradient mapping function <!-->
+	<!--> crd_constr=        coordinate constraint method (EST/FIX/KIN) <!-->
+	<!--> sig_init_crd=      initial sigma of coordinate <!-->
+	<!--> lsq_mode=          lsq estimator (LSQ or EPO) <!-->
+	<!--> ztd_model=         ztd_model (PWC/STO) <!-->
+	<!--> sysbias_model=     systembias model <!-->
+	<!--> bds2_isb=          estimate bds2 systembias (true/false) <!-->
+	<!--> ref_clk=           set reference clock (eg: "G01" or "PTBB") <!-->
+	<!--> sig_ref_clk=       initial sigma of reference clock <!-->
+	<!--> num_threads=       number of threads <!-->
+	<process 
+	phase="true" 
+	frequency="2"
+	obs_combination="IONO_FREE"
+	minimum_elev="7" 
+	obs_weight="PARTELE" 		
+	slip_model="turboedit" 
+	tropo="true" 
+	tropo_mf="gmf" 
+	tropo_model="saastamoinen" 
+	gradient="false"
+	grad_mf="BAR_SEVER" 
+	crd_constr="EST" 
+	sig_init_crd="100" 
+	lsq_mode="LSQ" 
+	sysbias_model="ISB+CON" 
+	ztd_model="PWC:120" 
+	bds2_isb="true" 
+	ref_clk="PTBB" 
+	sig_ref_clk="0.001" 
+	num_threads="1">
+	</process>
+	<inputs>
+		<rinexo>	<!--> rinex obs file <!--> 
+			 obs\abmf1000.20o obs\abpo1000.20o
+			 obs\aira1000.20o obs\algo1000.20o
+			 obs\anmg1000.20o obs\areg1000.20o
+			 obs\arht1000.20o obs\aruc1000.20o
+			 obs\ascg1000.20o obs\bik01000.20o
+			 obs\bogt1000.20o obs\bor11000.20o
+			 obs\braz1000.20o obs\brew1000.20o
+			 obs\brst1000.20o obs\bshm1000.20o
+			 obs\ccj21000.20o obs\cedu1000.20o
+			 obs\chpg1000.20o obs\ckis1000.20o
+			 obs\cpvg1000.20o obs\cro11000.20o
+			 obs\cusv1000.20o obs\darw1000.20o
+			 obs\dav11000.20o obs\dgar1000.20o
+			 obs\djig1000.20o obs\dubo1000.20o
+			 obs\dyng1000.20o obs\faa11000.20o
+			 obs\falk1000.20o obs\ffmj1000.20o
+			 obs\gamb1000.20o obs\gamg1000.20o
+			 obs\ganp1000.20o obs\gcgo1000.20o
+			 obs\glps1000.20o obs\godn1000.20o
+			 obs\gop61000.20o obs\graz1000.20o
+			 obs\guam1000.20o obs\harb1000.20o
+			 obs\hers1000.20o obs\hkws1000.20o
+			 obs\hob21000.20o obs\hofn1000.20o
+			 obs\iisc1000.20o obs\jfng1000.20o
+			 obs\joze1000.20o obs\karr1000.20o
+			 obs\kat11000.20o obs\kerg1000.20o
+			 obs\kiru1000.20o obs\kitg1000.20o
+			 obs\kokv1000.20o obs\kouc1000.20o
+			 obs\koug1000.20o obs\krgg1000.20o
+			 obs\laut1000.20o obs\lhaz1000.20o
+			 obs\lmmf1000.20o obs\maju1000.20o
+			 obs\mal21000.20o obs\mas11000.20o
+			 obs\matg1000.20o obs\maw11000.20o
+			 obs\mayg1000.20o obs\mchl1000.20o
+			 obs\metg1000.20o obs\mgue1000.20o
+			 obs\mizu1000.20o obs\mro11000.20o
+			 obs\nico1000.20o obs\nium1000.20o
+			 obs\nklg1000.20o obs\nya21000.20o
+			 obs\ohi31000.20o obs\ous21000.20o
+			 obs\owmg1000.20o obs\pado1000.20o
+			 obs\palm1000.20o obs\park1000.20o
+			 obs\pert1000.20o obs\picl1000.20o
+			 obs\pie11000.20o obs\pngm1000.20o
+			 obs\polv1000.20o obs\pots1000.20o
+			 obs\pove1000.20o obs\ptbb1000.20o
+			 obs\ptgg1000.20o obs\quin1000.20o
+			 obs\raeg1000.20o obs\reyk1000.20o
+			 obs\rgdg1000.20o obs\roag1000.20o
+			 obs\salu1000.20o obs\samo1000.20o
+			 obs\sask1000.20o obs\savo1000.20o
+			 obs\sch21000.20o obs\scrz1000.20o
+			 obs\seyg1000.20o obs\sgoc1000.20o
+			 obs\sod31000.20o obs\solo1000.20o
+			 obs\sthl1000.20o obs\stj31000.20o
+			 obs\stk21000.20o obs\str11000.20o
+			 obs\suth1000.20o obs\thtg1000.20o
+			 obs\tlse1000.20o obs\tow21000.20o
+			 obs\tsk21000.20o obs\twtf1000.20o
+			 obs\ufpr1000.20o obs\ulab1000.20o
+			 obs\unb31000.20o obs\unsa1000.20o
+			 obs\urum1000.20o obs\vacs1000.20o
+			 obs\vill1000.20o obs\voim1000.20o
+			 obs\warn1000.20o obs\wind1000.20o
+			 obs\wtzz1000.20o obs\wuh21000.20o
+			 obs\xmis1000.20o obs\yar31000.20o
+			 obs\yarr1000.20o obs\yel21000.20o
+			 obs\zamb1000.20o obs\zim31000.20o
+		</rinexo>
+		<DE> model\jpleph_de405_great </DE>				<!--> Planetary ephemeris file <!-->   
+		<poleut1> model\poleut1 </poleut1>	<!--> ERP file <!-->   
+		<leapsecond> model\leap_seconds </leapsecond>	<!--> leapsecond file <!-->   
+		<atx> model\igs_absolute_14.atx </atx>			<!--> Antenna correction file <!-->  
+		<biabern>										<!--> DCB file <!-->  
+			 gnss\P1C12004.DCB 
+			 gnss\P2C22004_RINEX.DCB
+		</biabern>
+		<rinexn> gnss\brdm1000.20p </rinexn>			<!--> rinex nav file <!-->
+		<sp3>											<!--> precise orbit file <!-->
+			 gnss\com21003.sp3 
+			 gnss\com21004.sp3
+			 gnss\com21005.sp3
+		</sp3>
+		<blq> model\oceanload </blq>					<!--> oceanload file <!-->   
+		<sinex> gnss\igs20P2100.snx </sinex>			<!--> sinex file <!-->  
+	</inputs>
+	<outputs append="false" verb="0">	 <!--> output file：whether append & verb：the larger the value，the more detailed the output log. <!-->
+		<log> xml\pcelsq.log </log>		 <!--> log file <!-->
+		<satclk> result\clk_2020100 </satclk>	 <!--> satellite clock result file <!-->
+		<recclk> result\rec_2020100 </recclk>	 <!--> receiver clock result file <!-->
+	</outputs>
+</config>
